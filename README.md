@@ -1,2 +1,5 @@
 # dotfiles
-my config files 
+
+## NVIM :
+
+- This is my personal config. 
