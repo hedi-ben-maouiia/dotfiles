@@ -99,6 +99,10 @@ keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
+-- Hex-Editor
+keymap("n", "<C-h>",":%!xxd", opts)
+
+
 keymap('n', "<C-a>", 'gg<S-v>G',opts)
 --nnoremap <esc><esc> :silent! nohls<cr>
 keymap("n", "<esc><esc>", ":nohlsearch<CR>", { silent = true })

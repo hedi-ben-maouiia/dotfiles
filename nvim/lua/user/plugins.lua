@@ -43,6 +43,7 @@ vim.opt.rtp:prepend(lazypath)
 	"sainnhe/gruvbox-material",
 	"tanvirtin/monokai.nvim",
     "blazkowolf/gruber-darker.nvim",
+    "rebelot/kanagawa.nvim"
 	-- Language servers
 	{ "williamboman/mason.nvim", "williamboman/mason-lspconfig.nvim", "neovim/nvim-lspconfig" },
 
